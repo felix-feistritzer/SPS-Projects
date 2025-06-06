@@ -1,0 +1,16 @@
+VAR
+	Sw1 : BOOL;
+	Sw1_Rise : R_TRIG;
+	Sw2 : BOOL;
+	BtnArray : ARRAY[0..3] OF Button_t;
+	Btn7 : BOOL;
+	LED1 : BOOL;
+	LED2 : BOOL;
+	DISP : INT;
+	P1 : INT;
+	P2 : INT;
+	K1 : UINT;
+	BtnDelay : TIME;
+	BtnTOn : ARRAY[0..3] OF TON;
+	Btn3Cnt : USINT;
+END_VAR

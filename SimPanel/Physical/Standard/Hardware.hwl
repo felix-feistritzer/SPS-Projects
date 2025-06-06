@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?AutomationStudio FileVersion="4.9"?>
+<BR.AS.HardwareTopology>
+  <TimeStamps>
+    <TimeStamp LogicalPath="Standard.Hardware.hw" LastWriteTime="03/20/2025 10:20:47" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="X20CP1584" Type="X20CP1584" X="100" Y="100" />
+    <Module Name="X20BM11" Type="X20BM11" X="250" Y="100" />
+    <Module Name="X20DI8371" Type="X20DI8371" X="250" Y="100" />
+    <Module Name="X20TB12" Type="X20TB12" X="250" Y="127" />
+    <Module Name="X20BM11a" Type="X20BM11" X="263" Y="100" />
+    <Module Name="X20AI2222" Type="X20AI2222" X="263" Y="100" />
+    <Module Name="X20TB12a" Type="X20TB12" X="263" Y="127" />
+    <Module Name="X20BM11b" Type="X20BM11" X="276" Y="100" />
+    <Module Name="X20AO2622" Type="X20AO2622" X="276" Y="100" />
+    <Module Name="X20TB12b" Type="X20TB12" X="276" Y="127" />
+    <Module Name="4SIM.10-01" Type="4SIM.10-01" X="385.236633" Y="100" />
+  </Modules>
+  <Links>
+    <Link From="X20CP1584" To="4SIM.10-01" FromPort="IF3" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="156" Y="187" />
+      <Point X="156" Y="187" />
+      <Point X="156" Y="200" />
+      <Point X="156" Y="215" />
+      <Point X="439.436584" Y="215" />
+      <Point X="439.436584" Y="206.000015" />
+      <Point X="439.436584" Y="202.000015" />
+      <Point X="439.436584" Y="202.000015" />
+    </Link>
+  </Links>
+  <InfoElements />
+</BR.AS.HardwareTopology>

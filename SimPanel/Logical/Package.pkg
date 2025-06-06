@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package Version="1.00.0" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Global data types">Global.typ</Object>
+    <Object Type="File" Description="Global variables">Global.var</Object>
+    <Object Type="Package" Description="Global libraries">Libraries</Object>
+    <Object Type="Program" Language="ANSIC">Aufgabe3</Object>
+    <Object Type="Program" Language="ANSIC">Aufgabe4</Object>
+    <Object Type="Program" Language="ANSIC">Aufgabe5</Object>
+    <Object Type="Program" Language="ANSIC">Aufgabe6</Object>
+    <Object Type="Program" Language="ANSIC">Aufgabe7</Object>
+    <Object Type="Program" Language="ANSIC">Aufgabe8</Object>
+  </Objects>
+</Package>

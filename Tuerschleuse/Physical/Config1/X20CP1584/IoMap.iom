@@ -1,0 +1,18 @@
+VAR_CONFIG
+	door_1.motor_closing AT %QX."X20DO8322".DigitalOutput01;
+	door_1.motor_opening AT %QX."X20DO8322".DigitalOutput02;
+	door_2.motor_opening AT %QX."X20DO8322".DigitalOutput03;
+	door_2.motor_closing AT %QX."X20DO8322".DigitalOutput04;
+	door_1.display AT %QX."X20DO8322".DigitalOutput05;
+	door_2.display AT %QX."X20DO8322".DigitalOutput06;
+	door_1.button_outside AT %IX."X20DI8371".DigitalInput01;
+	door_2.button_outside AT %IX."X20DI8371".DigitalInput02;
+	door_1.button_inside AT %IX."X20DI8371".DigitalInput03;
+	door_2.button_inside AT %IX."X20DI8371".DigitalInput04;
+	door_1.sensor_closed AT %IX."X20DI8371".DigitalInput05;
+	door_1.sensor_opened AT %IX."X20DI8371".DigitalInput06;
+	door_2.sensor_closed AT %IX."X20DI8371".DigitalInput07;
+	door_2.sensor_opened AT %IX."X20DI8371".DigitalInput08;
+	door_1.sensor_barrier AT %IX."X20DI8371a".DigitalInput01;
+	door_2.sensor_barrier AT %IX."X20DI8371a".DigitalInput02;
+END_VAR

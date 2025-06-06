@@ -1,0 +1,4 @@
+VAR
+	door_1 : door_t;
+	door_2 : door_t;
+END_VAR

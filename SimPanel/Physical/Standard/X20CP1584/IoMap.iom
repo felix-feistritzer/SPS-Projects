@@ -1,0 +1,27 @@
+VAR_CONFIG
+	::Sw1 AT %IX."4SIM.10-01".DigitalInput01;
+	::LED1 AT %QX."4SIM.10-01".DigitalOutput01;
+	::Sw2 AT %IX."4SIM.10-01".DigitalInput02;
+	::BtnArray[0].Btn AT %IX."4SIM.10-01".DigitalInput03;
+	::BtnArray[1].Btn AT %IX."4SIM.10-01".DigitalInput04;
+	::BtnArray[2].Btn AT %IX."4SIM.10-01".DigitalInput05;
+	::BtnArray[3].Btn AT %IX."4SIM.10-01".DigitalInput06;
+	::LED2 AT %QX."4SIM.10-01".DigitalOutput02;
+	::BtnArray[0].LEDR AT %QX."4SIM.10-01".DigitalOutput03;
+	::BtnArray[0].LEDY AT %QX."4SIM.10-01".DigitalOutput04;
+	::BtnArray[0].LEDG AT %QX."4SIM.10-01".DigitalOutput05;
+	::BtnArray[1].LEDR AT %QX."4SIM.10-01".DigitalOutput06;
+	::BtnArray[1].LEDY AT %QX."4SIM.10-01".DigitalOutput07;
+	::BtnArray[1].LEDG AT %QX."4SIM.10-01".DigitalOutput08;
+	::BtnArray[2].LEDR AT %QX."4SIM.10-01".DigitalOutput09;
+	::BtnArray[2].LEDY AT %QX."4SIM.10-01".DigitalOutput10;
+	::BtnArray[2].LEDG AT %QX."4SIM.10-01".DigitalOutput11;
+	::BtnArray[3].LEDR AT %QX."4SIM.10-01".DigitalOutput12;
+	::BtnArray[3].LEDY AT %QX."4SIM.10-01".DigitalOutput13;
+	::BtnArray[3].LEDG AT %QX."4SIM.10-01".DigitalOutput14;
+	::DISP AT %QW."4SIM.10-01".AnalogOutput01;
+	::P1 AT %IW."4SIM.10-01".AnalogInput01;
+	::P2 AT %IW."4SIM.10-01".AnalogInput02;
+	::Btn7 AT %IX."4SIM.10-01".DigitalInput07;
+	::K1 AT %IW."4SIM.10-01".Encoder01;
+END_VAR
