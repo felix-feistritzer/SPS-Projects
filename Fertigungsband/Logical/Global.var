@@ -1,0 +1,28 @@
+VAR
+	Werkstueck_Bandende_Links 		: BOOL;		
+	Werkstueck_Bandende_Rechts 		: BOOL;		
+	Koppelsensor_Empfaenger_rechts 	: BOOL;		
+	Koppelsensor_Empfaenger_links 	: BOOL;		
+	Stopper_geoffnet 				: BOOL;		
+	Notaus 							: BOOL;		
+	Motor_Drehgeber1 				: BOOL;		
+	Motor_Drehgeber2 				: BOOL;		
+	START_Taster_Gruen 				: BOOL;		
+	STOP_Taster_Rot					: BOOL;		
+	Reset_Taster_Weis 				: BOOL;		
+	Wahlschalter 					: BOOL;		
+	AuthCodeBit 					: ARRAY[0..3] OF BOOL; 
+	Bandantrieb_Rechts				: BOOL;		
+	Bandantrieb_Links				: BOOL;		
+	Bandantrieb_Schleichgang		: BOOL;		
+	Stopper_oeffnen					: BOOL;		
+	Koppelsensor_Sender_links		: BOOL;		
+	Koppelsensor_Sender_rechts		: BOOL;		
+	Lampe_Gruen						: BOOL;		
+	Lampe_Weiss						: BOOL;		
+	Lampe_Q1_Weiss					: BOOL;		
+	Lampe_Q2_Weiss					: BOOL;		
+	Potentiometer1					: INT;		
+	Potentiometer2					: INT;		
+	RFID_Reader						: STRING;	
+END_VAR

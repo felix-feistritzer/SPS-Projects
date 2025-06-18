@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Physical xmlns="http://br-automation.co.at/AS/Physical">
+  <Objects>
+    <Object Type="Configuration">Kamerainspektion</Object>
+    <Object Type="Configuration">Bohren</Object>
+    <Object Type="Configuration">Magazin</Object>
+    <Object Type="Configuration">Pressen</Object>
+    <Object Type="Configuration">Wenden</Object>
+    <Object Type="Configuration">Tunnelofen</Object>
+  </Objects>
+</Physical>
