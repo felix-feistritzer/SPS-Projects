@@ -1,6 +1,10 @@
 #pragma once
 
-#define DOOR_OPEN_TIMEOUT 5000 // 5 sec
+#define DOOR_OPEN_TIMEOUT 		 5000 //  5 sec
+#define DOOR_RESET_TIMEOUT		 3000 //  3 sec
+#define DOOR_OPENING_ERROR		10000 // 10 sec
+#define DOOR_OPEN_ERROR			20000 // 20 sec
+#define DOOR_CLOSING_ERROR		10000 // 10 sec
 
 typedef struct state* (*state_func_t)();
 typedef struct state

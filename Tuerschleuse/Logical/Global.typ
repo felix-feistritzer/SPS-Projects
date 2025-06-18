@@ -10,5 +10,6 @@ TYPE
 		motor_closing : BOOL;
 		display : BOOL;
 		timer : TON;
+		timer_display : TON;
 	END_STRUCT;
 END_TYPE

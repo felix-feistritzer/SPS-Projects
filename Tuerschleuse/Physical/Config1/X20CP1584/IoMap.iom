@@ -1,6 +1,6 @@
 VAR_CONFIG
-	door_1.motor_closing AT %QX."X20DO8322".DigitalOutput01;
-	door_1.motor_opening AT %QX."X20DO8322".DigitalOutput02;
+	door_1.motor_opening AT %QX."X20DO8322".DigitalOutput01;
+	door_1.motor_closing AT %QX."X20DO8322".DigitalOutput02;
 	door_2.motor_opening AT %QX."X20DO8322".DigitalOutput03;
 	door_2.motor_closing AT %QX."X20DO8322".DigitalOutput04;
 	door_1.display AT %QX."X20DO8322".DigitalOutput05;

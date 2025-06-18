@@ -6,10 +6,11 @@
 #include <AsDefault.h>
 #endif
 
-#define FALSE 0
-#define TRUE  1
-#define BLINK_SLOW	600
-#define BLINK_FAST	200
+#define FALSE 		   0
+#define TRUE  		   1
+#define BLINK_SLOW	 600
+#define BLINK_FAST	 200
+#define SECOND		1000
 
 /*
 typedef struct door
@@ -33,3 +34,4 @@ typedef struct door
 
 void door_display(door_t* self, TIME blink_speed);
 TON_typ set_TON(TON_typ TONset, BOOL in, TIME delay);
+TON_typ reset_TON(TON_typ TONset);
