@@ -5,6 +5,6 @@
   <TaskClass Name="Cyclic#2" />
   <TaskClass Name="Cyclic#3" />
   <TaskClass Name="Cyclic#4">
-    <Task Name="Test" Source="Test.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
+    <Task Name="Verpressen" Source="Verpressen.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
   </TaskClass>
 </SwConfiguration>

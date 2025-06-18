@@ -1,0 +1,10 @@
+VAR
+	Zylinder_oben : BOOL;
+	Zylinder_unten : BOOL;
+	Zylinder_auf : BOOL;
+	Zylinder_ab : BOOL;
+	Teil_vorhanden : BOOL;
+	Status : Status_t;
+	Lampe_Q1 : BOOL;
+	Lampe_Q2 : BOOL;
+END_VAR

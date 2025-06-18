@@ -1,0 +1,12 @@
+
+TYPE
+	Status_t : 
+		(
+		INIT,
+		BEREIT,
+		ZYLINDER_AB,
+		ZYLINDER_AUF,
+		FERTIG,
+		FEHLER
+		);
+END_TYPE

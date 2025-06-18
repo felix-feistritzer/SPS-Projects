@@ -1,0 +1,7 @@
+VAR
+	Zylinder_oben : BOOL;
+	Zylinder_unten : BOOL;
+	Zylinder_auf : BOOL;
+	Zylinder_ab : BOOL;
+	Teil_vorhanden : BOOL;
+END_VAR
